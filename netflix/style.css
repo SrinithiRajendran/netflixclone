@@ -657,3 +657,13 @@ footer a {
     font-size: 15px;
   }
 }
+
+/* Hide the scrollbar */
+::-webkit-scrollbar {
+  display: none;
+}
+
+/* Optional: You can still make the content scrollable */
+.scrollable {
+  overflow: scroll; /* or 'auto' */
+}
